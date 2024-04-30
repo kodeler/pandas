@@ -82,7 +82,7 @@ const Navbar = () => {
           </Link>
           <Link href="https://cloud.pandaslabs.com/sign-up" passHref>
             <button className={toggle ? 'hidden md:flex bg-gradient-to-r bg-gradient-to-r from-[#FFFFFF] to-[#D8D8D8] rounded-full text-black items-center gap-2 px-7 py-2' : 'hidden md:flex items-center gap-2 bg-black text-white rounded-full px-7 py-2'}>
-              Try pandaslabs
+              Try Pandaslabs
             </button>
           </Link>
         </ul>
@@ -97,7 +97,7 @@ const Navbar = () => {
             </Link>
             <Link href="https://cloud.pandaslabs.com/sign-up" passHref>
               <button className="flex items-center gap-2 bg-gradient-to-r bg-gradient-to-r from-[#FFFFFF] to-[#22C62E]  text-black rounded-full px-7 py-2">
-                Try pandaslabs
+                Try Pandaslabs
               </button>
             </Link>
           </div>

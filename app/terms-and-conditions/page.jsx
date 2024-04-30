@@ -5,7 +5,7 @@ const TermsAndConditions = () => {
     <div className="container mx-auto py-10">
       <h1 className="text-3xl text-gray-700 font-bold mb-5">Terms and Conditions</h1>
       <p className="text-gray-700 mb-5">
-        By using pandaslabss services, you agree to the terms and conditions described below. If you do not agree with these terms, please do not use our services.
+        By using Pandaslabs services, you agree to the terms and conditions described below. If you do not agree with these terms, please do not use our services.
       </p>
       <h2 className="text-2xl font-bold mb-3">Use of the services</h2>
       <p className="text-gray-700 mb-5">

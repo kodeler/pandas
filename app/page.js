@@ -2,6 +2,7 @@
 import Navbar from '@/components/Navbar'
 import Header from '@/components/Header'
 import ComponentServices from '@/components/ComponentServices'
+import Diagram from '@/components/Diagram'
 import DescriptionService from '@/components/DescriptionService'
 import Footer from '@/components/Footer'
 import AOS from 'aos';
@@ -18,6 +19,7 @@ export default function Home() {
     <div className="main overflow-x-hidden container mx-auto my-4">
       <Navbar/>
       <Header/>
+      <Diagram/>
       <DescriptionService/>
       <ComponentServices/>
       <Footer/>
