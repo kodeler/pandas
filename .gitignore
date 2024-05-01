@@ -34,3 +34,6 @@ coverage/
 # Archivos de compilación
 *.tsbuildinfo
 next-env.d.ts
+
+#
+inf.txt

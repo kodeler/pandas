@@ -57,8 +57,8 @@ const Navbar = () => {
                 </button>
               </li>
               <li>
-                <button className="font-[500] hover:text-[#D8D8D8] duration-75 ease-in" onClick={() => scrollToComponent('DescriptionService')}>
-                  Features
+                <button className="font-[500] hover:text-[#D8D8D8] duration-75 ease-in" onClick={() => scrollToComponent('Services')}>
+                  Services
                 </button>
               </li>
               <li>
