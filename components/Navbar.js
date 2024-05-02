@@ -39,7 +39,7 @@ const Navbar = () => {
         }
       >
         <div className="flex items-center mr-auto"> {/* Add this line to move the logo to the far left */}
-          <Image className="" src={toggle ? '/assets/logo1.png' : '/assets/logo2.png'} alt="logo" width={260} height={160} />
+          <Image className="" src={toggle ? '/assets/logo1.png' : '/assets/logo2.png'} alt="logo" width={190} height={100} />
         </div>
         <div> {/* Leave this container without a class to keep the Commerce and Producer buttons centered */}
           {isMobile ? (
