@@ -93,9 +93,14 @@ const Pricing = () => {
                 </div>
 
                 <div className="mt-10">
-                    <div className="space-y-10 md:space-y-0 md:grid md:grid-cols-3 md:gap-x-8">
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                         {plans.map((plan, index) => (
-                            <div key={index} className="bg-gray-800 rounded-lg shadow-md p-8">
+                            <div
+                                key={index}
+                                className={`bg-gray-800 rounded-lg shadow-md p-8 ${
+                                    plan.name === 'Pro' ? 'border-4 border-[#22C62E]' : ''
+                                }`}
+                            >
                                 <h3 className="text-2xl font-semibold text-white">{plan.name}</h3>
                                 <p className="mt-4 text-4xl font-bold text-[#22C62E]">${plan.price}/month</p>
                                 <ul className="mt-8 space-y-4">
