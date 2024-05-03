@@ -4,19 +4,46 @@ import Link from 'next/link';
 const Pricing = () => {
     const plans = [
         {
-            name: 'Basic',
-            price: '19.99',
+            name: 'Free',
+            price: '0.00',
             features: [
+                '1 User',
+                '1 Data Source',
+                '1 Data laboratory',
+                'Free for 7 Days',
+                'No Credit Card Required',
                 'Data analytics without code in natural language',
                 'Integration with popular data sources',
                 'Data visualization',
                 'Chatbot data analytics',
+                '12000 Tokens',
+                '1M Data Points',
+
+            ],
+        },
+        {
+            name: 'Basic',
+            price: '19.99',
+            features: [
+                '1 User',
+                '2 Data Source',
+                '1 Data laboratory',
+                'Data analytics without code in natural language',
+                'Integration with popular data sources',
+                'Data visualization',
+                'Chatbot data analytics',
+                '290K Tokens',
+                '3M Data Points',
+
             ],
         },
         {
             name: 'Pro',
             price: '49.99',
             features: [
+                '1 User',
+                '10 Data Source',
+                '5 Data laboratories',
                 'Data analytics without code in natural language',
                 'Integration with popular data sources',
                 'Data visualization',
@@ -24,12 +51,17 @@ const Pricing = () => {
                 '24/7 Uninterrupted Support',
                 'Automatic visualization and report creation',
                 'Anomaly detection and trend identification',
+                '1M Tokens',
+                '9M Data Points',
             ],
         },
         {
             name: 'Enterprise',
-            price: '99.99',
+            price: '199.99',
             features: [
+                '3 User',
+                '20 Data Source',
+                '10 Data laboratories',
                 'Data analytics without code in natural language',
                 'Integration with popular data sources',
                 'Data visualization',
@@ -41,6 +73,8 @@ const Pricing = () => {
                 'Intelligent process automation',
                 'Predictive financial analytics',
                 'Advanced forecasting and modeling',
+                '9M Tokens',
+                '50M Data Points',
             ],
         },
     ];
