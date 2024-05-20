@@ -40,7 +40,7 @@ const PricingVariable = () => {
     <div className="bg-black py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="lg:text-center">
-          <h2 className="text-base text-[#22C62E] font-semibold tracking-wide uppercase">Pricing</h2>
+          <h2 className="text-base text-[#FFC857] font-semibold tracking-wide uppercase">Pricing</h2>
           <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">
             Data Analytics for Wholesalers
           </p>
@@ -65,7 +65,7 @@ const PricingVariable = () => {
                   type="range"
                   name="dataPoints"
                   id="dataPoints"
-                  className="form-range w-full accent-[#22C62E]"
+                  className="form-range w-full accent-[#FFC857]"
                   min="0"
                   max="10000000"
                   step="1000"
@@ -92,7 +92,7 @@ const PricingVariable = () => {
                   type="range"
                   name="tokens"
                   id="tokens"
-                  className="form-range w-full accent-[#22C62E]"
+                  className="form-range w-full accent-[#FFC857]"
                   min="0"
                   max="1000000"
                   step="1000"
@@ -112,15 +112,15 @@ const PricingVariable = () => {
             <div className="flex flex-col items-start">
               <div className="flex items-center justify-between w-full mb-2">
                 <p className="text-lg font-semibold text-white">Data Points Price:</p>
-                <p className="text-lg font-bold text-[#22C62E]">${dataPointsPrice}</p>
+                <p className="text-lg font-bold text-[#FFC857]">${dataPointsPrice}</p>
               </div>
               <div className="flex items-center justify-between w-full mb-2">
                 <p className="text-lg font-semibold text-white">Token Price:</p>
-                <p className="text-lg font-bold text-[#22C62E]">${tokenPrice}</p>
+                <p className="text-lg font-bold text-[#FFC857]">${tokenPrice}</p>
               </div>
               <div className="flex items-center justify-between w-full">
                 <p className="text-xl font-semibold text-white">Total Price:</p>
-                <p className="text-3xl font-bold text-[#22C62E]">${totalPrice}</p>
+                <p className="text-3xl font-bold text-[#FFC857]">${totalPrice}</p>
               </div>
             </div>
           </div>

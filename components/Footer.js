@@ -19,21 +19,9 @@ const Footer = () => {
         <div className="text-center text-white  flex ">
           {/* Emoji de panda */}
           <span role="img" aria-label="panda">
-            🐼
+            🐼 
           </span>
-          {/* Banderas de países */}
-          <span role="img" aria-label="usa-flag" className="ml-2">
-            🇺🇸
-          </span>
-          <span role="img" aria-label="mexico-flag" className="ml-2">
-            🇲🇽
-          </span>
-          <span role="img" aria-label="colombia-flag" className="ml-2">
-            🇨🇴
-          </span>
-          <span role="img" aria-label="brazil-flag" className="ml-2">
-            🇧🇷
-          </span>
+          <span className="text-white hover:underline ml-4">We are Pandas</span>
         </div>
         <div className="text-center md:text-left mt-4 md:mt-0">
           {/* Información de contacto */}
@@ -44,7 +32,7 @@ const Footer = () => {
       <div className="container mx-auto mt-4 text-center px-4">
         {/* Derechos de autor */}
         <p className="text-white">
-          © {new Date().getFullYear()} Pandaslabs LLC. All rights reserved.
+          © {new Date().getFullYear()} Pandas Labs. All rights reserved.
         </p>
       </div>
     </footer>

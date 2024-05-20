@@ -8,7 +8,7 @@ const TermsAndConditions = () => {
       <div className="mb-5 flex items-center">
         {/* Botón para volver a la página de inicio */}
         <Link href="/">
-          <button className="text-[#22C62E] hover:text-gray-300 flex items-center">
+          <button className="text-[#FFC857] hover:text-gray-300 flex items-center">
             <FaArrowLeft className="mr-2" /> Back to Home
           </button>
         </Link>

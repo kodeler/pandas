@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import "./home.css";
+import "../styles/header.css";
 
-const words = ['Stores', 'Ecommerce', 'Retailers', 'Wholesalers', 'Distributors', 'Manufacturers'];
+const words = ['Laboratory', 'Data','Model',''];
 
 const Header = () => {
   const [currentWordIndex, setCurrentWordIndex] = useState(0);
@@ -23,7 +23,7 @@ const Header = () => {
           className="text-6xl sm:text-8xl md:text-9xl lg:text-12xl font-bold gradient text-transparent bg-clip-text text-center"
           
         >
-          Data Analytics for
+          Your 
         </h1>
         <h1 className="text-6xl sm:text-8xl md:text-9xl lg:text-12xl font-bold mb-12 gradient text-transparent bg-clip-text text-center"
           
@@ -32,7 +32,7 @@ const Header = () => {
         </h1>
 
         <p className="text-xl text-gray-200 text-center">
-        Intelligent Autonomous Agents: Empowering Data-Driven Businesses
+        Explore Data, Speak Insights
         </p>
       </div>
     </div>

@@ -2,9 +2,9 @@
     position: relative;
     background-image: repeating-linear-gradient(
       to right,
-      #22C62E,
-      #D8D8D8,
-      #22C62E
+      #FFC857,
+      #ffffff,
+      #FFC857
     );
     z-index: 1;
     background-position-x: 0%;
