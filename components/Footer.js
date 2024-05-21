@@ -18,10 +18,7 @@ const Footer = () => {
         </div>
         <div className="text-center text-white  flex ">
           {/* Emoji de panda */}
-          <span role="img" aria-label="panda">
-            🐼 
-          </span>
-          <span className="text-white hover:underline ml-4">We are Pandas</span>
+          <span className="text-white hover:underline ml-4">🐼 We are Pandas that go beyond limits</span>
         </div>
         <div className="text-center md:text-left mt-4 md:mt-0">
           {/* Información de contacto */}
