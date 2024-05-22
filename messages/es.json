@@ -1,0 +1,212 @@
+{
+  "Index": {
+    "title": "Inicio"
+  },
+  "NavLinks": {
+    "Services": "Servicios",
+    "HowWeWork": "¿Cómo trabajamos?",
+    "Contact": "Contacto",
+    "Language": "Idioma",
+    "Login": "Iniciar sesión",
+    "TryPandaslabs": "Prueba Pandaslabs"
+  },
+  "HeroSection": {
+    "title": "Tus",
+    "words": {
+      "item1": "laboratorios",
+      "item2": "Datos",
+      "item3": "Modelos"
+    },
+    "subtitle": "Tu modelo explora datos, habla perspicacias"
+  },
+  "Infrastructure": {
+    "title": "INFRAESTRUCTURA",
+    "description": "Integrando sin problemas datos, sistemas y equipos dentro de su infraestructura existente.",
+    "details": "Aproveche nuestra experiencia para conectar los puntos entre sus fuentes de datos, sistemas y equipos. Nuestras soluciones están diseñadas para trabajar en armonía con su infraestructura existente, asegurando una transición sin problemas y una mínima interrupción de sus operaciones."
+  },
+  "Services": {
+    "title": "NUESTROS SERVICIOS",
+    "subtitle": "Empoderando negocios impulsados por datos",
+    "description": "Descubra nuestra suite completa de servicios diseñada para ayudarlo a desbloquear todo el potencial de sus datos.",
+    "items": [
+      {
+        "title": "Analítica de datos sin código en lenguaje natural",
+        "description": "Realice análisis de datos y obtenga información utilizando consultas en lenguaje natural, sin necesidad de codificación."
+      },
+      {
+        "title": "Soporte ininterrumpido 24/7",
+        "description": "Nuestro equipo está disponible las 24 horas del día para brindarle un soporte ininterrumpido."
+      },
+      {
+        "title": "Creación automática de visualizaciones e informes",
+        "description": "Nuestra plataforma genera automáticamente visualizaciones e informes completos para ayudarlo a comprender mejor sus datos."
+      },
+      {
+        "title": "Detección de anomalías e identificación de tendencias",
+        "description": "Nuestras técnicas analíticas avanzadas ayudan a identificar anomalías y tendencias dentro de sus datos."
+      },
+      {
+        "title": "Integración con fuentes de datos populares",
+        "description": "Nuestra plataforma se integra sin problemas con fuentes de datos populares como CSV, Excel y bases de datos."
+      },
+      {
+        "title": "Visualización de datos",
+        "description": "Cree visualizaciones interactivas y perspicaces para comprender mejor sus datos."
+      },
+      {
+        "title": "Analítica de datos con chatbot",
+        "description": "Interactúe con nuestro chatbot para realizar análisis de datos utilizando consultas en lenguaje natural."
+      },
+      {
+        "title": "Planificación de recursos autónomos",
+        "description": "Nuestros agentes inteligentes pueden ayudarlo a optimizar la asignación y planificación de recursos."
+      },
+      {
+        "title": "Automatización de procesos inteligentes",
+        "description": "Automatice tareas y procesos repetitivos utilizando nuestras capacidades de automatización inteligentes."
+      },
+      {
+        "title": "Analítica financiera predictiva",
+        "description": "Aproveche nuestras capacidades de análisis predictivo para obtener información sobre su desempeño financiero."
+      },
+      {
+        "title": "Pronóstico y modelado avanzados",
+        "description": "Nuestra plataforma proporciona herramientas avanzadas de pronóstico y modelado para ayudarlo a tomar decisiones informadas."
+      },
+      {
+        "title": "Basado en la nube y escalable",
+        "description": "Nuestra plataforma basada en la nube es altamente escalable, lo que le permite hacer crecer sus capacidades de analítica de datos según sea necesario."
+      },
+      {
+        "title": "Seguro y cumplimiento",
+        "description": "Nuestra plataforma cumple con los más altos estándares de seguridad y regulaciones de cumplimiento."
+      }
+    ]
+  },
+  "Services2": {
+    "title": "NUESTROS SERVICIOS",
+    "description": "Soluciones integrales para desbloquear todo el potencial de sus datos",
+    "subtitle": "Explore nuestra suite de servicios diseñada para ayudarlo a aprovechar el poder de sus datos.",
+    "items": [
+      {
+        "title": "Integración perfecta con su ecosistema de datos",
+        "description": "Nuestra plataforma consolida todas sus fuentes de datos, como bases de datos, hojas de cálculo y API, en un almacén de datos unificado y seguro, facilitando el acceso y el análisis de sus datos desde una sola ubicación."
+      },
+      {
+        "title": "Consulta en lenguaje natural",
+        "description": "Nuestra plataforma le permite hacer preguntas sobre sus datos utilizando lenguaje natural, lo que facilita que los usuarios no técnicos obtengan información y tomen decisiones basadas en datos sin necesidad de consultas complejas ni codificación."
+      },
+      {
+        "title": "Análisis avanzados",
+        "description": "Nuestra plataforma aprovecha técnicas analíticas avanzadas, como el aprendizaje automático y la inteligencia artificial, para descubrir patrones, tendencias y conocimientos que serían difíciles de detectar con métodos tradicionales, lo que le permite tomar decisiones más informadas."
+      },
+      {
+        "title": "Visualizaciones e informes",
+        "description": "Nuestra plataforma genera automáticamente visualizaciones interactivas e informes completos para ayudarlo a comprender mejor sus datos y compartir información con las partes interesadas, asegurando que pueda tomar decisiones basadas en datos con facilidad."
+      }
+    ]
+  },
+  "Pricing": {
+    "title": "PRECIOS",
+    "subtitle": "El plan adecuado para su negocio",
+    "description": "Elija el plan que mejor se adapte a sus necesidades de analítica de datos.",
+    "getstarter":"Comenzar",
+    "plans": [
+      {
+        "name": "Gratis",
+        "price": "$0.00/mes",
+        "details": [
+          "1 Usuario",
+          "1 Fuente de Datos",
+          "1 Laboratorio de Datos",
+          "Gratis por 7 Días",
+          "No se Requiere Tarjeta de Crédito",
+          "12000 Tokens",
+          "1M Puntos de Datos"
+        ]
+      },
+      {
+        "name": "Básico",
+        "price": "$17.99/mes",
+        "details": [
+          "1 Usuario",
+          "2 Fuentes de Datos",
+          "1 Laboratorio de Datos",
+          "Analítica de datos sin código en lenguaje natural",
+          "Integración con fuentes de datos populares",
+          "Visualización de datos",
+          "Analítica de datos con chatbot",
+          "290K Tokens",
+          "3M Puntos de Datos"
+        ]
+      },
+      {
+        "name": "Pro",
+        "price": "$19.99/mes",
+        "details": [
+          "1 Usuario",
+          "10 Fuentes de Datos",
+          "5 Laboratorios de Datos",
+          "Analítica de datos sin código en lenguaje natural",
+          "Integración con fuentes de datos populares",
+          "Visualización de datos",
+          "Analítica de datos con chatbot",
+          "Soporte ininterrumpido 24/7",
+          "Creación automática de visualizaciones e informes",
+          "Detección de anomalías e identificación de tendencias",
+          "1M Tokens",
+          "9M Puntos de Datos"
+        ]
+      },
+      {
+        "name": "Empresa",
+        "price": "Personalizado/mes",
+        "details": [
+          "3 Usuarios",
+          "20 Fuentes de Datos",
+          "10 Laboratorios de Datos",
+          "Analítica de datos sin código en lenguaje natural",
+          "Integración con fuentes de datos populares",
+          "Visualización de datos",
+          "Analítica de datos con chatbot",
+          "Soporte ininterrumpido 24/7",
+          "Creación automática de visualizaciones e informes",
+          "Detección de anomalías e identificación de tendencias",
+          "Planificación de recursos autónomos",
+          "Automatización de procesos inteligentes",
+          "Analítica financiera predictiva",
+          "Pronóstico y modelado avanzados",
+          "9M Tokens",
+          "50M Puntos de Datos"
+        ]
+      }
+    ]
+  },
+  "Wholesalers": {
+    "title": "ANÁLISIS DE DATOS PARA MAYORISTAS",
+    "description": "Elija la opción de precios que mejor se adapte a sus necesidades de análisis de datos."
+  },
+  "DataPoints": {
+    "title": "Puntos de Datos Procesados",
+    "description": "Pague según la cantidad de puntos de datos procesados."
+  },
+  "TokenPricing": {
+    "title": "Precio de Tokens",
+    "description": "Pague por los tokens utilizados por nuestro modelo de lenguaje de gran tamaño (LLM)."
+  },
+  "EstimatedPrices": {
+    "title": "Precios Estimados",
+    "description": "Precio total:"
+  },
+  "Footer": {
+    "privacyPolicy": "Política de Privacidad",
+    "termsAndConditions": "Términos y Condiciones",
+    "pandasLabs": "Somos Pandas que van más allá de los límites",
+    "contactlabel":"Contacto:",
+    "contact": {
+      "email": "Correo Electrónico: servicios@pandaslabs.com"
+    },
+    "copyright": "Pandas Labs. Todos los derechos reservados."
+  }
+}
+

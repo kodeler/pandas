@@ -2,10 +2,17 @@
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 import { AiOutlineLogin, AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
-import Link from 'next/link';
+//import Link from 'next/link';
+import {Link} from '@/navigation';
 import { useMediaQuery } from 'react-responsive';
+import LanguageSelector from './LanguageSelector';
+
+import {useTranslations} from 'next-intl';
 
 const Navbar = () => {
+  const t = useTranslations('NavLinks');
+  
+
   const [toggle, setToggle] = useState(true);
   const [menu, setMenu] = useState(false);
   const isMobile = useMediaQuery({ query: '(max-width: 767px)' });
@@ -31,13 +38,13 @@ const Navbar = () => {
 
   return (
     <>
-     <nav
-  className={
-    toggle
-      ? 'fixed top-0 right-0 left-0 ease-linear duration-300 px-8 md:px-16 py-5 text-white flex justify-between items-center'
-      : 'fixed top-4 left-4 right-4 bg-white text-black px-8 md:px-16 py-5 flex justify-between items-center rounded-lg shadow-lg'
-  }
->
+      <nav
+        className={
+          toggle
+            ? 'fixed top-0 right-0 left-0 ease-linear duration-300 px-8 md:px-16 py-5 text-white flex justify-between items-center'
+            : 'fixed top-4 left-4 right-4 bg-white text-black px-8 md:px-16 py-5 flex justify-between items-center rounded-lg shadow-lg'
+        }
+      >
 
 
 
@@ -61,31 +68,32 @@ const Navbar = () => {
               </li>
               <li>
                 <button className="font-[500] hover:text-[#FFC857] duration-75 ease-in" onClick={() => scrollToComponent('Services')}>
-                  Services
+                  {t('Services')}
                 </button>
               </li>
               <li>
                 <button className="font-[500] hover:text-[#FFC857]  duration-75 ease-in" onClick={() => scrollToComponent('howWeWorkComponent')}>
-                  How We Work?
+                {t('HowWeWork')}
                 </button>
               </li>
               <li>
                 <button className="font-[500] hover:text-[#FFC857]  duration-75 ease-in" onClick={() => scrollToComponent('contactComponent')}>
-                  Contact
+                {t('Contact')}
                 </button>
               </li>
+              <LanguageSelector/>
             </ul>
           )}
         </div>
         <ul className="md:flex space-x-5 hidden">
           <Link href="https://cloud.pandaslabs.com/sign-in" passHref>
-              <button className={toggle ? 'rounded-full text-white items-center gap-2 px-7 py-2' : 'items-center gap-2 text-white bg-black rounded-full px-7 py-2'}>
-              Log in
-              </button>
+            <button className={toggle ? 'rounded-full text-white items-center gap-2 px-7 py-2' : 'items-center gap-2 text-white bg-black rounded-full px-7 py-2'}>
+            {t('Login')}
+            </button>
           </Link>
           <Link href="https://cloud.pandaslabs.com/sign-up" passHref>
             <button className={toggle ? 'hidden md:flex bg-[#FFC857] rounded-full text-black items-center gap-2 px-7 py-2' : 'hidden md:flex items-center gap-2 bg-black text-white rounded-full px-7 py-2'}>
-              Try Pandaslabs
+            {t('TryPandaslabs')}
             </button>
           </Link>
         </ul>

@@ -1,0 +1,211 @@
+{
+  "Index": {
+    "title": "Home"
+  },
+  "NavLinks": {
+    "Services": "Services",
+    "HowWeWork": "How We Work?",
+    "Contact": "Contact",
+    "Language": "Language",
+    "Login": "Log in",
+    "TryPandaslabs": "Try Pandaslabs"
+  },
+  "HeroSection": {
+    "title": "Your",
+    "words": {
+      "item1": "Laboratory",
+      "item2": "Data",
+      "item3": "Model"
+    },
+    "subtitle": "Your model explores data, speaks insights"
+  },
+  "Infrastructure": {
+    "title": "INFRASTRUCTURE",
+    "description": "Seamlessly integrating data, systems, and teams within your existing infrastructure.",
+    "details": "Leverage our expertise to connect the dots between your data sources, systems, and teams. Our solutions are designed to work in harmony with your existing infrastructure, ensuring a smooth transition and minimal disruption to your operations."
+  },
+  "Services": {
+    "title": "OUR SERVICES",
+    "subtitle": "Empowering data-driven businesses",
+    "description": "Discover our comprehensive suite of services designed to help you unlock the full potential of your data.",
+    "items": [
+      {
+        "title": "Data analytics without code in natural language",
+        "description": "Perform data analysis and gain insights using natural language queries, without the need for coding."
+      },
+      {
+        "title": "24/7 Uninterrupted Support",
+        "description": "Our team is available around the clock to provide you with uninterrupted support."
+      },
+      {
+        "title": "Automatic visualization and report creation",
+        "description": "Our platform automatically generates visualizations and comprehensive reports to help you better understand your data."
+      },
+      {
+        "title": "Anomaly detection and trend identification",
+        "description": "Our advanced analytics techniques help identify anomalies and trends within your data."
+      },
+      {
+        "title": "Integration with popular data sources",
+        "description": "Our platform seamlessly integrates with popular data sources such as CSV, Excel, and databases."
+      },
+      {
+        "title": "Data visualization",
+        "description": "Create interactive and insightful visualizations to better understand your data."
+      },
+      {
+        "title": "Chatbot data analytics",
+        "description": "Interact with our chatbot to perform data analysis using natural language queries."
+      },
+      {
+        "title": "Autonomous resource planning",
+        "description": "Our intelligent agents can help you optimize resource allocation and planning."
+      },
+      {
+        "title": "Intelligent process automation",
+        "description": "Automate repetitive tasks and processes using our intelligent automation capabilities."
+      },
+      {
+        "title": "Predictive financial analytics",
+        "description": "Leverage our predictive analytics capabilities to gain insights into your financial performance."
+      },
+      {
+        "title": "Advanced forecasting and modeling",
+        "description": "Our platform provides advanced forecasting and modeling tools to help you make informed decisions."
+      },
+      {
+        "title": "Cloud-based and scalable",
+        "description": "Our cloud-based platform is highly scalable, allowing you to grow your data analytics capabilities as needed."
+      },
+      {
+        "title": "Secure and compliant",
+        "description": "Our platform adheres to the highest security standards and compliance regulations."
+      }
+    ]
+  },
+  "Services2": {
+    "title": "OUR SERVICES",
+    "description": "Comprehensive solutions to unlock your data's full potential",
+    "subtitle": "Explore our suite of services designed to help you harness the power of your data.",
+    "items": [
+      {
+        "title": "Seamless integration with your data ecosystem",
+        "description": "Our platform consolidates all your data sources, such as databases, spreadsheets, and APIs, into a unified and secure data warehouse, making it easy to access and analyze your data from a single location."
+      },
+      {
+        "title": "Natural language query",
+        "description": "Our platform allows you to ask questions about your data using natural language, making it easy for non-technical users to gain insights and make data-driven decisions without the need for complex queries or coding."
+      },
+      {
+        "title": "Advanced analytics",
+        "description": "Our platform leverages advanced analytics techniques, such as machine learning and artificial intelligence, to uncover patterns, trends, and insights that would be difficult to detect with traditional methods, empowering you to make more informed decisions."
+      },
+      {
+        "title": "Visualizations and reports",
+        "description": "Our platform automatically generates interactive visualizations and comprehensive reports to help you better understand your data and share insights with stakeholders, ensuring that you can make data-driven decisions with ease."
+      }
+    ]
+  },
+  "Pricing": {
+    "title": "PRICING",
+    "subtitle": "The right plan for your business",
+    "description": "Choose the plan that best fits your data analytics needs.",
+    "getstarter":"Get Started",
+    "plans": [
+      {
+        "name": "Free",
+        "price": "$0.00/month",
+        "details": [
+          "1 User",
+          "1 Data Source",
+          "1 Data laboratory",
+          "Free for 7 Days",
+          "No Credit Card Required",
+          "12000 Tokens",
+          "1M Data Points"
+        ]
+      },
+      {
+        "name": "Basic",
+        "price": "$17.99/month",
+        "details": [
+          "1 User",
+          "2 Data Sources",
+          "1 Data laboratory",
+          "Data analytics without code in natural language",
+          "Integration with popular data sources",
+          "Data visualization",
+          "Chatbot data analytics",
+          "290K Tokens",
+          "3M Data Points"
+        ]
+      },
+      {
+        "name": "Pro",
+        "price": "$19.99/month",
+        "details": [
+          "1 User",
+          "10 Data Sources",
+          "5 Data laboratories",
+          "Data analytics without code in natural language",
+          "Integration with popular data sources",
+          "Data visualization",
+          "Chatbot data analytics",
+          "24/7 Uninterrupted Support",
+          "Automatic visualization and report creation",
+          "Anomaly detection and trend identification",
+          "1M Tokens",
+          "9M Data Points"
+        ]
+      },
+      {
+        "name": "Enterprise",
+        "price": "$Custom/month",
+        "details": [
+          "3 Users",
+          "20 Data Sources",
+          "10 Data laboratories",
+          "Data analytics without code in natural language",
+          "Integration with popular data sources",
+          "Data visualization",
+          "Chatbot data analytics",
+          "24/7 Uninterrupted Support",
+          "Automatic visualization and report creation",
+          "Anomaly detection and trend identification",
+          "Autonomous resource planning",
+          "Intelligent process automation",
+          "Predictive financial analytics",
+          "Advanced forecasting and modeling",
+          "9M Tokens",
+          "50M Data Points"
+        ]
+      }
+    ]
+  },
+  "Wholesalers": {
+    "title": "DATA ANALYTICS FOR WHOLESALERS",
+    "description": "Choose the pricing option that best fits your data analytics needs."
+  },
+  "DataPoints": {
+    "title": "Data Points Processed",
+    "description": "Pay based on the number of data points processed."
+  },
+  "TokenPricing": {
+    "title": "Token Pricing",
+    "description": "Pay for the tokens used by our large language model (LLM)."
+  },
+  "EstimatedPrices": {
+    "title": "Estimated Prices",
+    "description": "Total Price:"
+  },
+  "Footer": {
+    "privacyPolicy": "Privacy Policy",
+    "termsAndConditions": "Terms and Conditions",
+    "pandasLabs": "We are Pandas that go beyond limits",
+    "contactlabel":"Contact:",
+    "contact": {
+      "email": "Email: services@pandaslabs.com"
+    },
+    "copyright": "Pandas Labs. All rights reserved."
+  }
+}

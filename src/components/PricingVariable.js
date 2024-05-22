@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
+import { useTranslations } from 'next-intl';
 
 const PricingVariable = () => {
+  const t = useTranslations();
   const [dataPoints, setDataPoints] = useState(0);
   const [numberOfTokens, setNumberOfTokens] = useState(0);
   const [dataPointsPrice, setDataPointsPrice] = useState(0);
@@ -40,22 +42,17 @@ const PricingVariable = () => {
     <div className="bg-black py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="lg:text-center">
-          <h2 className="text-base text-[#FFC857] font-semibold tracking-wide uppercase">Pricing</h2>
+          <h2 className="text-base text-[#FFC857] font-semibold tracking-wide uppercase">{t('Wholesalers.title')}</h2>
           <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">
-            Data Analytics for Wholesalers
-          </p>
-          <p className="mt-4 max-w-2xl text-xl text-gray-400 lg:mx-auto">
-            Choose the pricing option that best fits your data analytics needs.
+            {t('Wholesalers.description')}
           </p>
         </div>
 
         <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Data Points Processed Pricing */}
           <div className="bg-gray-800 p-6 rounded-lg shadow-md">
-            <h3 className="text-2xl font-semibold text-white">Data Points Processed Pricing</h3>
-            <p className="mt-4 text-gray-400">
-              Pay based on the number of data points processed.
-            </p>
+            <h3 className="text-2xl font-semibold text-white">{t('DataPoints.title')}</h3>
+            <p className="mt-4 text-gray-400">{t('DataPoints.description')}</p>
             <div className="mt-6">
               <label htmlFor="dataPoints" className="block text-sm font-medium text-white">
                 Data Points Processed
@@ -79,10 +76,8 @@ const PricingVariable = () => {
 
           {/* Token Pricing */}
           <div className="bg-gray-800 p-6 rounded-lg shadow-md">
-            <h3 className="text-2xl font-semibold text-white">Token Pricing</h3>
-            <p className="mt-4 text-gray-400">
-              Pay for the tokens used by our large language model (LLM).
-            </p>
+            <h3 className="text-2xl font-semibold text-white">{t('TokenPricing.title')}</h3>
+            <p className="mt-4 text-gray-400">{t('TokenPricing.description')}</p>
             <div className="mt-6">
               <label htmlFor="tokens" className="block text-sm font-medium text-white">
                 Number of Tokens
@@ -108,7 +103,7 @@ const PricingVariable = () => {
         <div className="mt-10">
           {/* Estimated Prices */}
           <div className="bg-gray-800 p-6 rounded-lg shadow-md">
-            <h3 className="text-2xl font-semibold text-white mb-4">Estimated Prices</h3>
+            <h3 className="text-2xl font-semibold text-white mb-4">{t('EstimatedPrices.title')}</h3>
             <div className="flex flex-col items-start">
               <div className="flex items-center justify-between w-full mb-2">
                 <p className="text-lg font-semibold text-white">Data Points Price:</p>
@@ -119,7 +114,7 @@ const PricingVariable = () => {
                 <p className="text-lg font-bold text-[#FFC857]">${tokenPrice}</p>
               </div>
               <div className="flex items-center justify-between w-full">
-                <p className="text-xl font-semibold text-white">Total Price:</p>
+                <p className="text-xl font-semibold text-white">{t('EstimatedPrices.description')}</p>
                 <p className="text-3xl font-bold text-[#FFC857]">${totalPrice}</p>
               </div>
             </div>

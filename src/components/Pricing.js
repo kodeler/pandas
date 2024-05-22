@@ -1,76 +1,74 @@
 import React from 'react';
 import Link from 'next/link';
+import { useTranslations } from 'next-intl';
 
 const Pricing = () => {
+    const t = useTranslations('Pricing');
     const plans = [
         {
-            name: 'Free',
-            price: '0.00',
+            name: t('plans.0.name'),
+            price: t('plans.0.price'),
             features: [
-                '1 User',
-                '1 Data Source',
-                '1 Data laboratory',
-                'Free for 7 Days',
-                'No Credit Card Required',
-                '12000 Tokens',
-                '1M Data Points',
+                t('plans.0.details.0'),
+                t('plans.0.details.1'),
+                t('plans.0.details.3'),
+                t('plans.0.details.4'),
+                t('plans.0.details.5'),
+                t('plans.0.details.6'),
+                t('plans.0.details.7'),
 
             ],
         },
         {
-            name: 'Basic',
-            price: '17.99',
+            name: t('plans.1.name'),
+            price: t('plans.1.price'),
             features: [
-                '1 User',
-                '2 Data Source',
-                '1 Data laboratory',
-                'Data analytics without code in natural language',
-                'Integration with popular data sources',
-                'Data visualization',
-                'Chatbot data analytics',
-                '290K Tokens',
-                '3M Data Points',
+                t('plans.1.details.0'),
+                t('plans.1.details.1'),
+                t('plans.1.details.2'),
+                t('plans.1.details.3'),
+                t('plans.1.details.4'),
+                t('plans.1.details.5'),
+                t('plans.1.details.6'),
+                t('plans.1.details.7'),
+                t('plans.1.details.8'),
 
             ],
         },
         {
-            name: 'Pro',
-            price: '19.99',
+            name: t('plans.2.name'),
+            price: t('plans.2.price'),
             features: [
-                '1 User',
-                '10 Data Source',
-                '5 Data laboratories',
-                'Data analytics without code in natural language',
-                'Integration with popular data sources',
-                'Data visualization',
-                'Chatbot data analytics',
-                '24/7 Uninterrupted Support',
-                'Automatic visualization and report creation',
-                'Anomaly detection and trend identification',
-                '1M Tokens',
-                '9M Data Points',
+                t('plans.2.details.0'),
+                t('plans.2.details.1'),
+                t('plans.2.details.2'),
+                t('plans.2.details.3'),
+                t('plans.2.details.4'),
+                t('plans.2.details.5'),
+                t('plans.2.details.6'),
+                t('plans.2.details.7'),
+                t('plans.2.details.8'),
+                t('plans.2.details.9'),
+                t('plans.2.details.10'),
             ],
         },
         {
-            name: 'Enterprise',
-            price: 'Custom',
+            name: t('plans.3.name'),
+            price: t('plans.3.price'),
             features: [
-                '3 User',
-                '20 Data Source',
-                '10 Data laboratories',
-                'Data analytics without code in natural language',
-                'Integration with popular data sources',
-                'Data visualization',
-                'Chatbot data analytics',
-                '24/7 Uninterrupted Support',
-                'Automatic visualization and report creation',
-                'Anomaly detection and trend identification',
-                'Autonomous resource planning',
-                'Intelligent process automation',
-                'Predictive financial analytics',
-                'Advanced forecasting and modeling',
-                '9M Tokens',
-                '50M Data Points',
+                t('plans.3.details.0'),
+                t('plans.3.details.1'),
+                t('plans.3.details.2'),
+                t('plans.3.details.3'),
+                t('plans.3.details.4'),
+                t('plans.3.details.5'),
+                t('plans.3.details.6'),
+                t('plans.3.details.7'),
+                t('plans.3.details.8'),
+                t('plans.3.details.9'),
+                t('plans.3.details.10'),
+                t('plans.3.details.11'),
+                t('plans.3.details.12'),
             ],
         },
     ];
@@ -79,12 +77,12 @@ const Pricing = () => {
         <div className="bg-black py-16" id="Prising">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="lg:text-center">
-                    <h2 className="text-base text-[#FFC857] font-semibold tracking-wide uppercase">Pricing</h2>
+                    <h2 className="text-base text-[#FFC857] font-semibold tracking-wide uppercase">{t('tittle')}</h2>
                     <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">
-                        The Right Plan for Your Business
+                        {t('subtitle')}
                     </p>
                     <p className="mt-4 max-w-2xl text-xl text-gray-400 lg:mx-auto">
-                        Choose the plan that best fits your data analytics needs.
+                        {t('description')}
                     </p>
                 </div>
 
@@ -98,7 +96,7 @@ const Pricing = () => {
                                 }`}
                             >
                                 <h3 className="text-2xl font-semibold text-white">{plan.name}</h3>
-                                <p className="mt-4 text-4xl font-bold text-[#FFC857]">${plan.price}/month</p>
+                                <p className="mt-4 text-4xl font-bold text-[#FFC857]">{plan.price}</p>
                                 <ul className="mt-8 space-y-4">
                                     {plan.features.map((feature, idx) => (
                                         <li key={idx} className="flex items-start">
@@ -127,7 +125,7 @@ const Pricing = () => {
                                             type="button"
                                             className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-[#FFC857] hover:bg-green"
                                         >
-                                            Get Started
+                                             {t('getstarter')}
                                         </button>
                                     </Link>
                                 </div>

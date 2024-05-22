@@ -2,7 +2,9 @@ import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import "../styles/header.css";
 
-const words = ['Laboratory', 'Data', 'Model'];
+import {useTranslations} from 'next-intl';
+
+//const words = ['Laboratory', 'Data', 'Model'];
 const meteor = Array.from({ length: 200 }, () => ({
   x: Math.random() * 200 - 100,
   y: Math.random() * 200 - 100,
@@ -12,6 +14,8 @@ const meteor = Array.from({ length: 200 }, () => ({
 }));
 
 const Header = () => {
+  const t = useTranslations('HeroSection');
+  const words = [t('words.item1'), t('words.item2'), t('words.item3')];
   const [currentWordIndex, setCurrentWordIndex] = useState(0);
 
   useEffect(() => {
@@ -28,12 +32,12 @@ const Header = () => {
     <div className="relative h-screen flex items-center justify-center overflow-hidden" id="heroComponent">
       <div className="relative z-10 text-center">
         <h1 className="text-6xl sm:text-8xl md:text-9xl lg:text-12xl font-bold gradient text-transparent bg-clip-text text-center">
-          Your
+          {t('title')}
         </h1>
         <h1 className="text-6xl sm:text-8xl md:text-9xl lg:text-12xl font-bold mb-12 gradient text-transparent bg-clip-text text-center">
           {currentWord}
         </h1>
-        <p className="text-xl text-gray-200 text-center">Explore Data, Speak Insights</p>
+        <p className="text-xl text-gray-200 text-center">{t('subtitle')}</p>
       </div>
       <div className="absolute inset-0 pointer-events-none overflow-hidden">
         {meteor.map((meteorites, index) => (
