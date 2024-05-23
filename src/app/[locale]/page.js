@@ -18,6 +18,7 @@ export default function Home() {
     AOS.init()
   },[])
   return (
+    <main>
     <div className="main overflow-x-hidden container mx-auto my-4">
       <Navbar/>
       <Header/>
@@ -28,5 +29,6 @@ export default function Home() {
       <PricingVarible/>
       <Footer/>
     </div>
+    </main>
   )
 }

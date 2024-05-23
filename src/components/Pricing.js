@@ -78,7 +78,7 @@ const Pricing = () => {
         <div className="bg-black py-16" id="Prising">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="lg:text-center">
-                    <h2 className="text-base text-[#FFC857] font-semibold tracking-wide uppercase">{t('tittle')}</h2>
+                    <h2 className="text-base text-[#FFC857] font-semibold tracking-wide uppercase">{t('title')}</h2>
                     <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">
                         {t('subtitle')}
                     </p>
