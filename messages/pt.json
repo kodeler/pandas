@@ -9,16 +9,15 @@
       "Language": "Idioma",
       "Login": "Entrar",
       "TryPandaslabs": "Experimente"
-    },
-    "HeroSection": {
-        "title": "Seu",
-        "words": {
-            "item1": "lab de dados",
-            "item2": "lab analítico",
-            "item3": "insights de dados"
-          },
-        "subtitle": "Seu modelo explora dados"
-    },
+    },"HeroSection": {
+      "title": "Análise de dados em piloto automático",
+      "words": {
+      "item1": "Rápido",
+      "item2": "Preciso",
+      "item3": "Certeiro"
+      },
+      "subtitle": "Explore dados de maneira inteligente e rápida em sua empresa"
+      },
     "Infrastructure": {
       "title": "INFRAESTRUTURA",
       "description": "Integrando perfeitamente dados, sistemas e equipes dentro da sua infraestrutura existente.",

@@ -11,13 +11,13 @@
     "TryPandaslabs": "Pandaslabs"
   },
   "HeroSection": {
-    "title": "Tus",
+    "title": "Análisis de datos en piloto automático",
     "words": {
-      "item1": "laboratorios",
-      "item2": "Datos",
-      "item3": "Modelos"
+    "item1": "Rápido",
+    "item2": "Preciso",
+    "item3": "Certero"
     },
-    "subtitle": "Tu modelo explora datos, habla perspicacias"
+    "subtitle": "Explora datos de manera inteligente y rápida en tu empresa"
   },
   "Infrastructure": {
     "title": "INFRAESTRUCTURA",

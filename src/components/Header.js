@@ -31,10 +31,10 @@ const Header = () => {
   return (
     <div className="relative h-screen flex items-center justify-center overflow-hidden" id="heroComponent">
       <div className="relative z-10 text-center">
-        <h1 className="text-6xl sm:text-8xl md:text-9xl lg:text-12xl font-bold gradient text-transparent bg-clip-text text-center">
+        <h1 className="text-6xl sm:text-6xl md:text-6xl lg:text-8xl font-bold gradient text-transparent bg-clip-text text-center">
           {t('title')}
         </h1>
-        <h1 className="text-6xl sm:text-8xl md:text-9xl lg:text-12xl font-bold mb-12 gradient text-transparent bg-clip-text text-center">
+        <h1 className="text-6xl sm:text-6xl md:text-6xl lg:text-8xl font-bold mb-12 gradient text-transparent bg-clip-text text-center">
           {currentWord}
         </h1>
         <p className="text-xl text-gray-200 text-center">{t('subtitle')}</p>
