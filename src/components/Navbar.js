@@ -99,16 +99,16 @@ const Navbar = () => {
         </ul>
       </nav>
       {isMobile && (
-        <div className={menu ? 'shadow-md py-6 space-y-4 z-[50] bg-gray-100 text-neutral-900 px-5 text-lg font-semibold fixed top-[89px] duration-500 ease-in w-full' : 'w-full duration-500 ease-in-out bg-gray-100 text-neutral-600 px-2 text-lg font-semibold absolute -top-[400px]'}>
+        <div className={menu ? 'shadow-md py-6 space-y-4 z-[50] bg-gray-100 text-neutral-900 px-5 text-lg font-semibold fixed top-[150px] duration-500 ease-in w-full' : 'w-full duration-500 ease-in-out bg-gray-100 text-neutral-600 px-2 text-lg font-semibold absolute -top-[400px]'}>
           <div className="flex justify-center space-x-4"> {/* Add this line to center the buttons */}
             <Link href="https://cloud.pandaslabs.com/sign-in" passHref>
               <button className="flex items-center gap-2 bg-gradient-to-r bg-gradient-to-r from-[#FFFFFF] to-[#FFC857]  text-black rounded-full px-7 py-2">
-                Sign In
+              {t('Login')}
               </button>
             </Link>
             <Link href="https://cloud.pandaslabs.com/sign-up" passHref>
               <button className="flex items-center gap-2 bg-gradient-to-r bg-gradient-to-r from-[#FFFFFF] to-[#FFC857]  text-black rounded-full px-7 py-2">
-                Try Pandaslabs
+              {t('TryPandaslabs')}
               </button>
             </Link>
           </div>
