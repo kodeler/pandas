@@ -14,7 +14,7 @@ const LanguageSelector = () => {
   const languages = [
     { code: 'en', label: 'English' },
     { code: 'es', label: 'Español' },
-    { code: 'pt', label: 'portuguese' },
+    { code: 'pt', label: 'português' },
   ];
 
   const toggleDropdown = () => {
