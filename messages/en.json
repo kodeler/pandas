@@ -162,9 +162,9 @@
         "name": "Enterprise",
         "price": "$Custom/month",
         "details": [
-          "3 Users",
-          "20 Data Sources",
-          "10 Data laboratories",
+          "Users",
+          "Data Sources",
+          "Data laboratories",
           "Data analytics without code in natural language",
           "Integration with popular data sources",
           "Data visualization",
@@ -176,8 +176,8 @@
           "Intelligent process automation",
           "Predictive financial analytics",
           "Advanced forecasting and modeling",
-          "9M Tokens",
-          "50M Data Points"
+          "Tokens",
+          "Data Points"
         ]
       }
     ]

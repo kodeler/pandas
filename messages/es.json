@@ -162,9 +162,9 @@
         "name": "Empresa",
         "price": "Personalizado/mes",
         "details": [
-          "3 Usuarios",
-          "20 Fuentes de Datos",
-          "10 Laboratorios de Datos",
+          "Usuarios",
+          "Fuentes de Datos",
+          "Laboratorios de Datos",
           "Analítica de datos sin código en lenguaje natural",
           "Integración con fuentes de datos populares",
           "Visualización de datos",
@@ -176,8 +176,8 @@
           "Automatización de procesos inteligentes",
           "Analítica financiera predictiva",
           "Pronóstico y modelado avanzados",
-          "9M Tokens",
-          "50M Puntos de Datos"
+          "Tokens",
+          "Puntos de Datos"
         ]
       }
     ]
