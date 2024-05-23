@@ -1,12 +1,12 @@
 
 import '@/styles/global.css'
 import { Inter } from 'next/font/google'
-import { Analytics } from '@vercel/analytics/react';
 const inter = Inter({ subsets: ['latin'] })
 
 import { NextIntlClientProvider } from 'next-intl';
 import { getLocale, getMessages } from 'next-intl/server';
 
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 export const metadata = {
   title: 'Pandas Labs',
@@ -24,8 +24,8 @@ export default async function RootLayout({ children, params: {locale}}) {
         <NextIntlClientProvider messages={messages}>
           {children}
         </NextIntlClientProvider>
-        <Analytics />
       </body>
+      <GoogleAnalytics gaId={process.env.GOOGLE_ANALYTICS_ID} />
     </html>
   )
 }

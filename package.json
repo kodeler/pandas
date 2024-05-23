@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@iconscout/react-unicons": "^2.0.2",
+    "@next/third-parties": "^14.2.3",
     "@vercel/analytics": "^1.0.1",
     "aos": "^2.3.4",
     "autoprefixer": "10.4.14",

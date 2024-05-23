@@ -13,9 +13,9 @@
     "HeroSection": {
         "title": "Seu",
         "words": {
-            "item1": "laboratório de dados",
-            "item2": "laboratório analítico",
-            "item3": "laboratório de insights de dados"
+            "item1": "lab de dados",
+            "item2": "lab analítico",
+            "item3": "insights de dados"
           },
         "subtitle": "Seu modelo explora dados, fala insights"
     },
@@ -201,7 +201,7 @@
     "Footer": {
       "privacyPolicy": "Política de Privacidade",
       "termsAndConditions": "Termos e Condições",
-      "pandasLabs": "Somos Pandas que vão além dos limites",
+      "pandasLabs": "🐼 Somos Pandas",
       "contactlabel":"Contato:",
       "contact": {
         "email": "E-mail: servicos@pandaslabs.com"

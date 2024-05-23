@@ -15,7 +15,6 @@ const Pricing = () => {
                 t('plans.0.details.4'),
                 t('plans.0.details.5'),
                 t('plans.0.details.6'),
-                t('plans.0.details.7'),
 
             ],
         },
@@ -50,6 +49,8 @@ const Pricing = () => {
                 t('plans.2.details.8'),
                 t('plans.2.details.9'),
                 t('plans.2.details.10'),
+                t('plans.2.details.11'),
+                
             ],
         },
         {

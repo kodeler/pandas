@@ -201,10 +201,10 @@
   "Footer": {
     "privacyPolicy": "Política de Privacidad",
     "termsAndConditions": "Términos y Condiciones",
-    "pandasLabs": "Somos Pandas que van más allá de los límites",
+    "pandasLabs": "🐼 Somos Pandas",
     "contactlabel":"Contacto:",
     "contact": {
-      "email": "Correo Electrónico: servicios@pandaslabs.com"
+      "email": "Correo: servicios@pandaslabs.com"
     },
     "copyright": "Pandas Labs. Todos los derechos reservados."
   }
