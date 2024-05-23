@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useTranslations } from 'next-intl';
 
-const PricingVariable = () => {
+const PricingVariable = () => { 
   const t = useTranslations();
   const [dataPoints, setDataPoints] = useState(0);
   const [numberOfTokens, setNumberOfTokens] = useState(0);
