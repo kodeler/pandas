@@ -13,11 +13,118 @@
   "HeroSection": {
     "title": "Data analysis on autopilot",
     "words": {
-    "item1": "Fast",
-    "item2": "Accurate",
-    "item3": "On-point"
+      "item1": "Fast",
+      "item2": "Accurate",
+      "item3": "On-point"
     },
     "subtitle": "Explore data intelligently and quickly in your business"
+  },
+  "UseCases": {
+    "title": "Our Services",
+    "description": "How our clients use our data analytics service",
+    "details": "Discover the diverse applications of our service across different industries.",
+    "items": [
+      {
+        "title": "Demand Forecasting",
+        "description": "They use advanced machine learning models to predict product demand across various stores, enabling better inventory management and cost reduction.",
+        "icon": "📈"
+      },
+      {
+        "title": "Price Optimization",
+        "description": "Their algorithms analyze the market and consumer trends to suggest optimal pricing that maximizes revenue and competitiveness.",
+        "icon": "💹"
+      },
+      {
+        "title": "Customer Analytics",
+        "description": "They segment and analyze customer behavior to personalize offerings and enhance the customer experience.",
+        "icon": "🔍"
+      },
+      {
+        "title": "Supply Chain Management",
+        "description": "Optimization of the supply chain to ensure products arrive on time and reduce logistics costs.",
+        "icon": "🚛"
+      },
+      {
+        "title": "Marketing Optimization",
+        "description": "They help businesses optimize their marketing campaigns through performance data analysis and audience segmentation.",
+        "icon": "📊"
+      },
+      {
+        "title": "Production Optimization",
+        "description": "They use data analytics to optimize production processes, improving efficiency and reducing operational costs.",
+        "icon": "🏭"
+      },
+      {
+        "title": "Inventory Management",
+        "description": "They help wholesalers manage their inventories efficiently, using predictive analytics to prevent overstocking or stockouts.",
+        "icon": "📦"
+      },
+      {
+        "title": "Supplier Analysis",
+        "description": "They evaluate supplier performance to improve the supply chain and ensure product quality.",
+        "icon": "📝"
+      },
+      {
+        "title": "Demand Planning",
+        "description": "They help manufacturers and wholesalers plan demand more accurately, using predictive models based on historical data and market trends.",
+        "icon": "📅"
+      },
+      {
+        "title": "Cost Analysis",
+        "description": "They provide detailed cost analyses to help businesses identify areas for improvement and increase profitability.",
+        "icon": "💰"
+      },
+      {
+        "title": "Quality Monitoring",
+        "description": "They implement data-driven quality monitoring systems to ensure products meet required standards.",
+        "icon": "✔️"
+      },
+      {
+        "title": "Customer Experience Personalization",
+        "description": "They analyze customer interaction data to personalize their experience in real-time and improve satisfaction and loyalty.",
+        "icon": "🛍️"
+      },
+      {
+        "title": "Risk Analysis",
+        "description": "They identify and assess potential risks through historical and predictive data analysis, helping businesses proactively mitigate these risks.",
+        "icon": "⚠️"
+      },
+      {
+        "title": "Market Segmentation",
+        "description": "They divide the market into specific segments based on demographic and behavioral data, enabling more effective marketing campaigns.",
+        "icon": "📂"
+      },
+      {
+        "title": "Process Improvement",
+        "description": "They identify areas for process improvement through performance and operational data analysis.",
+        "icon": "🔄"
+      },
+      {
+        "title": "Process Automation",
+        "description": "They use data analytics to automate repetitive processes and improve operational efficiency.",
+        "icon": "🤖"
+      },
+      {
+        "title": "Social Media Analytics",
+        "description": "They monitor and analyze social media data to better understand market trends and brand perception.",
+        "icon": "📱"
+      },
+      {
+        "title": "Supply Chain Optimization",
+        "description": "They analyze supply chain data to identify bottlenecks and optimize material flow.",
+        "icon": "🚢"
+      },
+      {
+        "title": "Financial Forecasting",
+        "description": "They use predictive analytics to make accurate financial forecasts and support strategic decision-making.",
+        "icon": "📉"
+      },
+      {
+        "title": "Productivity Analysis",
+        "description": "They measure and analyze employee productivity to identify areas for improvement and increase efficiency.",
+        "icon": "📈"
+      }
+    ]
   },
   "Infrastructure": {
     "title": "INFRASTRUCTURE",
@@ -110,7 +217,7 @@
     "title": "PRICING",
     "subtitle": "The right plan for your business",
     "description": "Choose the plan that best fits your data analytics needs.",
-    "getstarter":"Get Started",
+    "getstarter": "Get Started",
     "plans": [
       {
         "name": "Free",
@@ -130,8 +237,8 @@
         "price": "$17.99/month",
         "details": [
           "1 User",
-          "2 Data Sources",
-          "1 Data laboratory",
+          "3 Data Sources",
+          "2 Data laboratory",
           "Data analytics without code in natural language",
           "Integration with popular data sources",
           "Data visualization",
@@ -146,7 +253,7 @@
         "details": [
           "1 User",
           "10 Data Sources",
-          "5 Data laboratories",
+          "7 Data laboratories",
           "Data analytics without code in natural language",
           "Integration with popular data sources",
           "Data visualization",
@@ -202,7 +309,7 @@
     "privacyPolicy": "Privacy Policy",
     "termsAndConditions": "Terms and Conditions",
     "pandasLabs": "We are Pandas that go beyond limits",
-    "contactlabel":"Contact:",
+    "contactlabel": "Contact:",
     "contact": {
       "email": "Email: services@pandaslabs.com"
     },

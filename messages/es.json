@@ -19,6 +19,113 @@
     },
     "subtitle": "Explora datos de manera inteligente y rápida en tu empresa"
   },
+  "UseCases":{
+    "title":"Nuestros Servicios",
+    "description":"Cómo nuestros clientes usan nuestro servicio de análisis de datos",
+    "details":"Descubre las diversas aplicaciones de nuestro servicio en diferentes industrias.",
+    "items":[
+      {
+      "title": "Predicción de Demanda",
+      "description": "Utilizan modelos avanzados de machine learning para predecir la demanda de productos en diversas tiendas, permitiendo una mejor gestión de inventarios y reducción de costos.",
+      "icon": "📈"
+      },
+      {
+      "title": "Optimización de Precios",
+      "description": "Sus algoritmos analizan el mercado y las tendencias de consumo para sugerir precios óptimos que maximicen los ingresos y la competitividad.",
+      "icon": "💹"
+      },
+      {
+      "title": "Análisis de Clientes",
+      "description": "Segmentan y analizan el comportamiento de los clientes para personalizar ofertas y mejorar la experiencia del cliente.",
+      "icon": "🔍"
+      },
+      {
+      "title": "Gestión de Suministros",
+      "description": "Optimización de la cadena de suministro para asegurar que los productos lleguen a tiempo y se reduzcan los costos de logística.",
+      "icon": "🚛"
+      },
+      {
+      "title": "Optimización de Marketing",
+      "description": "Ayudan a las empresas a optimizar sus campañas de marketing mediante el análisis de datos de rendimiento y segmentación de audiencia.",
+      "icon": "📊"
+      },
+      {
+      "title": "Optimización de Producción",
+      "description": "Utilizan análisis de datos para optimizar los procesos de producción, mejorando la eficiencia y reduciendo los costos operativos.",
+      "icon": "🏭"
+      },
+      {
+      "title": "Gestión de Inventarios",
+      "description": "Ayudan a mayoristas a gestionar sus inventarios de manera eficiente, utilizando análisis predictivos para evitar excesos o faltantes de stock.",
+      "icon": "📦"
+      },
+      {
+      "title": "Análisis de Proveedores",
+      "description": "Evalúan el rendimiento de los proveedores para mejorar la cadena de suministro y asegurar la calidad de los productos.",
+      "icon": "📝"
+      },
+      {
+      "title": "Planificación de la Demanda",
+      "description": "Ayudan a fabricantes y mayoristas a planificar la demanda con mayor precisión, utilizando modelos predictivos basados en datos históricos y tendencias del mercado.",
+      "icon": "📅"
+      },
+      {
+      "title": "Análisis de Costos",
+      "description": "Proporcionan análisis detallados de costos para ayudar a las empresas a identificar áreas de mejora y aumentar la rentabilidad.",
+      "icon": "💰"
+      },
+      {
+      "title": "Monitoreo de Calidad",
+      "description": "Implementan sistemas de monitoreo de calidad basados en datos para asegurar que los productos cumplen con los estándares requeridos.",
+      "icon": "✔️"
+      },
+      {
+      "title": "Personalización de la Experiencia del Cliente",
+      "description": "Analizan datos de interacción de clientes para personalizar su experiencia en tiempo real y mejorar la satisfacción y lealtad.",
+      "icon": "🛍️"
+      },
+      {
+      "title": "Análisis de Riesgos",
+      "description": "Identifican y evalúan riesgos potenciales mediante el análisis de datos históricos y predictivos, ayudando a las empresas a mitigar estos riesgos de manera proactiva.",
+      "icon": "⚠️"
+      },
+      {
+      "title": "Segmentación de Mercado",
+      "description": "Dividen el mercado en segmentos específicos basados en datos demográficos y comportamentales, permitiendo campañas de marketing más efectivas.",
+      "icon": "📂"
+      },
+      {
+      "title": "Mejora de Procesos",
+      "description": "Identifican áreas de mejora en los procesos empresariales mediante el análisis de datos de rendimiento y operativos.",
+      "icon": "🔄"
+      },
+      {
+      "title": "Automatización de Procesos",
+      "description": "Utilizan análisis de datos para automatizar procesos repetitivos y mejorar la eficiencia operativa.",
+      "icon": "🤖"
+      },
+      {
+      "title": "Análisis de Redes Sociales",
+      "description": "Monitorean y analizan datos de redes sociales para comprender mejor las tendencias del mercado y la percepción de la marca.",
+      "icon": "📱"
+      },
+      {
+      "title": "Optimización de la Cadena de Suministro",
+      "description": "Analizan datos de la cadena de suministro para identificar cuellos de botella y optimizar el flujo de materiales.",
+      "icon": "🚢"
+      },
+      {
+      "title": "Previsión Financiera",
+      "description": "Utilizan análisis predictivos para realizar previsiones financieras precisas y apoyar la toma de decisiones estratégicas.",
+      "icon": "📉"
+      },
+      {
+      "title": "Análisis de Productividad",
+      "description": "Miden y analizan la productividad de los empleados para identificar áreas de mejora y aumentar la eficiencia.",
+      "icon": "📈"
+      }
+      ]
+  },
   "Infrastructure": {
     "title": "INFRAESTRUCTURA",
     "description": "Integrando sin problemas datos, sistemas y equipos dentro de su infraestructura existente.",

@@ -1,211 +1,318 @@
 {
-    "Index": {
-      "title": "Início"
-    },
-    "NavLinks": {
-      "Services": "Serviços",
-      "HowWeWork": "Como trabalhamos?",
-      "Contact": "Contato",
-      "Language": "Idioma",
-      "Login": "Entrar",
-      "TryPandaslabs": "Experimente"
-    },"HeroSection": {
-      "title": "Análise de dados em piloto automático",
-      "words": {
+  "Index": {
+    "title": "Início"
+  },
+  "NavLinks": {
+    "Services": "Serviços",
+    "HowWeWork": "Como trabalhamos?",
+    "Contact": "Contato",
+    "Language": "Idioma",
+    "Login": "Entrar",
+    "TryPandaslabs": "Experimente"
+  },
+  "HeroSection": {
+    "title": "Análise de dados em piloto automático",
+    "words": {
       "item1": "Rápido",
       "item2": "Preciso",
       "item3": "Certeiro"
+    },
+    "subtitle": "Explore dados de maneira inteligente e rápida em sua empresa"
+  },
+  "UseCases": {
+    "title": "Nossos Serviços",
+    "description": "Como nossos clientes utilizam nosso serviço de análise de dados",
+    "details": "Descubra as diversas aplicações do nosso serviço em diferentes indústrias.",
+    "items": [
+      {
+        "title": "Previsão da Demanda",
+        "description": "Utilizam modelos avançados de aprendizado de máquina para prever a demanda de produtos em diversas lojas, permitindo uma melhor gestão de estoques e redução de custos.",
+        "icon": "📈"
       },
-      "subtitle": "Explore dados de maneira inteligente e rápida em sua empresa"
+      {
+        "title": "Otimização de Preços",
+        "description": "Seus algoritmos analisam o mercado e as tendências de consumo para sugerir preços ideais que maximizem as receitas e a competitividade.",
+        "icon": "💹"
       },
-    "Infrastructure": {
-      "title": "INFRAESTRUTURA",
-      "description": "Integrando perfeitamente dados, sistemas e equipes dentro da sua infraestrutura existente.",
-      "details": "Aproveite nossa experiência para conectar os pontos entre suas fontes de dados, sistemas e equipes. Nossas soluções são projetadas para trabalhar em harmonia com sua infraestrutura existente, garantindo uma transição suave e mínima interrupção das suas operações."
-    },
-    "Services": {
-      "title": "NOSSOS SERVIÇOS",
-      "subtitle": "Empoderando negócios orientados por dados",
-      "description": "Descubra nossa suíte completa de serviços projetados para ajudá-lo a desbloquear todo o potencial dos seus dados.",
-      "items": [
-        {
-          "title": "Análise de dados sem código em linguagem natural",
-          "description": "Realize análises de dados e obtenha insights usando consultas em linguagem natural, sem necessidade de codificação."
-        },
-        {
-          "title": "Suporte ininterrupto 24/7",
-          "description": "Nossa equipe está disponível 24 horas por dia para fornecer suporte ininterrupto."
-        },
-        {
-          "title": "Criação automática de visualizações e relatórios",
-          "description": "Nossa plataforma gera automaticamente visualizações e relatórios abrangentes para ajudá-lo a entender melhor seus dados."
-        },
-        {
-          "title": "Detecção de anomalias e identificação de tendências",
-          "description": "Nossas técnicas analíticas avançadas ajudam a identificar anomalias e tendências dentro dos seus dados."
-        },
-        {
-          "title": "Integração com fontes de dados populares",
-          "description": "Nossa plataforma se integra perfeitamente com fontes de dados populares, como CSV, Excel e bancos de dados."
-        },
-        {
-          "title": "Visualização de dados",
-          "description": "Crie visualizações interativas e perspicazes para entender melhor seus dados."
-        },
-        {
-          "title": "Análise de dados com chatbot",
-          "description": "Interaja com nosso chatbot para realizar análises de dados usando consultas em linguagem natural."
-        },
-        {
-          "title": "Planejamento autônomo de recursos",
-          "description": "Nossos agentes inteligentes podem ajudá-lo a otimizar a alocação e o planejamento de recursos."
-        },
-        {
-          "title": "Automatização de processos inteligentes",
-          "description": "Automatize tarefas e processos repetitivos usando nossas capacidades de automação inteligente."
-        },
-        {
-          "title": "Análise financeira preditiva",
-          "description": "Aproveite nossas capacidades de análise preditiva para obter insights sobre seu desempenho financeiro."
-        },
-        {
-          "title": "Previsão e modelagem avançadas",
-          "description": "Nossa plataforma fornece ferramentas avançadas de previsão e modelagem para ajudá-lo a tomar decisões informadas."
-        },
-        {
-          "title": "Baseado na nuvem e escalável",
-          "description": "Nossa plataforma baseada na nuvem é altamente escalável, permitindo que você expanda suas capacidades de análise de dados conforme necessário."
-        },
-        {
-          "title": "Seguro e em conformidade",
-          "description": "Nossa plataforma adere aos mais altos padrões de segurança e regulamentações de conformidade."
-        }
-      ]
-    },
-    "Services2": {
-      "title": "NOSSOS SERVIÇOS",
-      "description":"Soluções abrangentes para desbloquear todo o potencial dos seus dados",
-      "subtitle": "Explore nossa suíte de serviços projetada para ajudá-lo a aproveitar o poder dos seus dados.",
-      "items": [
-        {
-          "title": "Integração perfeita com seu ecossistema de dados",
-          "description": "Nossa plataforma consolida todas as suas fontes de dados, como bancos de dados, planilhas e APIs, em um data warehouse unificado e seguro, facilitando o acesso e a análise dos seus dados a partir de um único local."
-        },
-        {
-          "title": "Consulta em linguagem natural",
-          "description": "Nossa plataforma permite que você faça perguntas sobre seus dados usando linguagem natural, facilitando que usuários não técnicos obtenham insights e tomem decisões baseadas em dados sem a necessidade de consultas complexas ou codificação."
-        },
-        {
-          "title": "Análises avançadas",
-          "description": "Nossa plataforma aproveita técnicas analíticas avançadas, como aprendizado de máquina e inteligência artificial, para descobrir padrões, tendências e insights que seriam difíceis de detectar com métodos tradicionais, permitindo que você tome decisões mais informadas."
-        },
-        {
-          "title": "Visualizações e relatórios",
-          "description": "Nossa plataforma gera automaticamente visualizações interativas e relatórios abrangentes para ajudá-lo a entender melhor seus dados e compartilhar insights com as partes interessadas, garantindo que você possa tomar decisões baseadas em dados com facilidade."
-        }
-      ]
-    },
-    "Pricing": {
-      "title": "PREÇOS",
-      "subtitle": "O plano certo para o seu negócio",
-      "description": "Escolha o plano que melhor se adapta às suas necessidades de análise de dados.",
-      "getstarter":"Começar",
-      "plans": [
-        {
-          "name": "Grátis",
-          "price": "$0.00/mês",
-          "details": [
-            "1 Usuário",
-            "1 Fonte de Dados",
-            "1 Laboratório de Dados",
-            "Grátis por 7 Dias",
-            "Nenhum Cartão de Crédito Necessário",
-            "12000 Tokens",
-            "1M Pontos de Dados"
-          ]
-        },
-        {
-          "name": "Básico",
-          "price": "$17.99/mês",
-          "details": [
-            "1 Usuário",
-            "2 Fontes de Dados",
-            "1 Laboratório de Dados",
-            "Análise de dados sem código em linguagem natural",
-            "Integração com fontes de dados populares",
-            "Visualização de dados",
-            "Análise de dados com chatbot",
-            "290K Tokens",
-            "3M Pontos de Dados"
-          ]
-        },
-        {
-          "name": "Pro",
-          "price": "$19.99/mês",
-          "details": [
-            "1 Usuário",
-            "10 Fontes de Dados",
-            "5 Laboratórios de Dados",
-            "Análise de dados sem código em linguagem natural",
-            "Integração com fontes de dados populares",
-            "Visualização de dados",
-            "Análise de dados com chatbot",
-            "Suporte ininterrupto 24/7",
-            "Criação automática de visualizações e relatórios",
-            "Detecção de anomalias e identificação de tendências",
-            "1M Tokens",
-            "9M Pontos de Dados"
-          ]
-        },
-        {
-          "name": "Enterprise",
-          "price": "Personalizado/mês",
-          "details": [
-            "Usuários",
-            "Fontes de Dados",
-            "Laboratórios de Dados",
-            "Análise de dados sem código em linguagem natural",
-            "Integração com fontes de dados populares",
-            "Visualização de dados",
-            "Análise de dados com chatbot",
-            "Suporte ininterrupto 24/7",
-            "Criação automática de visualizações e relatórios",
-            "Detecção de anomalias e identificação de tendências",
-            "Planejamento autônomo de recursos",
-            "Automatização de processos inteligentes",
-            "Análise financeira preditiva",
-            "Previsão e modelagem avançadas",
-            "Tokens",
-            "Pontos de Dados"
-          ]
-        }
-      ]
-    },
-    "Wholesalers": {
-      "title": "ANÁLISE DE DADOS PARA ATACADISTAS",
-      "description": "Escolha a opção de preços que melhor se adapta às suas necessidades de análise de dados."
-    },
-    "DataPoints": {
-      "title": "Pontos de Dados Processados",
-      "description": "Pague com base na quantidade de pontos de dados processados."
-    },
-    "TokenPricing": {
-      "title": "Preço de Tokens",
-      "description": "Pague pelos tokens usados pelo nosso modelo de linguagem de grande porte (LLM)."
-    },
-    "EstimatedPrices": {
-      "title": "Preços Estimados",
-      "description": "Preço total:"
-    },
-    "Footer": {
-      "privacyPolicy": "Política de Privacidade",
-      "termsAndConditions": "Termos e Condições",
-      "pandasLabs": "🐼 Somos Pandas",
-      "contactlabel":"Contato:",
-      "contact": {
-        "email": "E-mail: servicos@pandaslabs.com"
+      {
+        "title": "Análise de Clientes",
+        "description": "Segmentam e analisam o comportamento dos clientes para personalizar ofertas e melhorar a experiência do cliente.",
+        "icon": "🔍"
       },
-      "copyright": "Pandas Labs. Todos os direitos reservados."
-    }
+      {
+        "title": "Gestão de Suprimentos",
+        "description": "Otimização da cadeia de suprimentos para garantir que os produtos cheguem no prazo e reduzir os custos de logística.",
+        "icon": "🚛"
+      },
+      {
+        "title": "Otimização de Marketing",
+        "description": "Ajudam as empresas a otimizar suas campanhas de marketing através da análise de dados de desempenho e segmentação de público.",
+        "icon": "📊"
+      },
+      {
+        "title": "Otimização da Produção",
+        "description": "Utilizam análise de dados para otimizar os processos de produção, melhorando a eficiência e reduzindo os custos operacionais.",
+        "icon": "🏭"
+      },
+      {
+        "title": "Gestão de Estoques",
+        "description": "Ajudam distribuidores a gerenciar seus estoques de forma eficiente, utilizando análises preditivas para evitar excesso ou falta de estoque.",
+        "icon": "📦"
+      },
+      {
+        "title": "Análise de Fornecedores",
+        "description": "Avaliam o desempenho dos fornecedores para melhorar a cadeia de suprimentos e garantir a qualidade dos produtos.",
+        "icon": "📝"
+      },
+      {
+        "title": "Planejamento da Demanda",
+        "description": "Ajudam fabricantes e distribuidores a planejar a demanda com maior precisão, utilizando modelos preditivos baseados em dados históricos e tendências de mercado.",
+        "icon": "📅"
+      },
+      {
+        "title": "Análise de Custos",
+        "description": "Fornecem análises detalhadas de custos para ajudar as empresas a identificar áreas de melhoria e aumentar a lucratividade.",
+        "icon": "💰"
+      },
+      {
+        "title": "Monitoramento de Qualidade",
+        "description": "Implementam sistemas de monitoramento de qualidade baseados em dados para garantir que os produtos atendam aos padrões exigidos.",
+        "icon": "✔️"
+      },
+      {
+        "title": "Personalização da Experiência do Cliente",
+        "description": "Analisam dados de interação de clientes para personalizar sua experiência em tempo real e melhorar a satisfação e fidelidade.",
+        "icon": "🛍️"
+      },
+      {
+        "title": "Análise de Riscos",
+        "description": "Identificam e avaliam riscos potenciais através da análise de dados históricos e preditivos, ajudando as empresas a mitigar esses riscos de forma proativa.",
+        "icon": "⚠️"
+      },
+      {
+        "title": "Segmentação de Mercado",
+        "description": "Dividem o mercado em segmentos específicos com base em dados demográficos e comportamentais, permitindo campanhas de marketing mais eficazes.",
+        "icon": "📂"
+      },
+      {
+        "title": "Melhoria de Processos",
+        "description": "Identificam áreas de melhoria nos processos de negócios através da análise de dados de desempenho e operacionais.",
+        "icon": "🔄"
+      },
+      {
+        "title": "Automação de Processos",
+        "description": "Utilizam análise de dados para automatizar processos repetitivos e melhorar a eficiência operacional.",
+        "icon": "🤖"
+      },
+      {
+        "title": "Análise de Redes Sociais",
+        "description": "Monitoram e analisam dados de redes sociais para entender melhor as tendências do mercado e a percepção da marca.",
+        "icon": "📱"
+      },
+      {
+        "title": "Otimização da Cadeia de Suprimentos",
+        "description": "Analisam dados da cadeia de suprimentos para identificar gargalos e otimizar o fluxo de materiais.",
+        "icon": "🚢"
+      },
+      {
+        "title": "Previsão Financeira",
+        "description": "Utilizam análises preditivas para realizar previsões financeiras precisas e apoiar a tomada de decisões estratégicas.",
+        "icon": "📉"
+      },
+      {
+        "title": "Análise de Produtividade",
+        "description": "Medem e analisam a produtividade dos funcionários para identificar áreas de melhoria e aumentar a eficiência.",
+        "icon": "📈"
+      }
+    ]
+  },
+  "Infrastructure": {
+    "title": "INFRAESTRUTURA",
+    "description": "Integrando perfeitamente dados, sistemas e equipes dentro da sua infraestrutura existente.",
+    "details": "Aproveite nossa experiência para conectar os pontos entre suas fontes de dados, sistemas e equipes. Nossas soluções são projetadas para trabalhar em harmonia com sua infraestrutura existente, garantindo uma transição suave e mínima interrupção das suas operações."
+  },
+  "Services": {
+    "title": "NOSSOS SERVIÇOS",
+    "subtitle": "Empoderando negócios orientados por dados",
+    "description": "Descubra nossa suíte completa de serviços projetados para ajudá-lo a desbloquear todo o potencial dos seus dados.",
+    "items": [
+      {
+        "title": "Análise de dados sem código em linguagem natural",
+        "description": "Realize análises de dados e obtenha insights usando consultas em linguagem natural, sem necessidade de codificação."
+      },
+      {
+        "title": "Suporte ininterrupto 24/7",
+        "description": "Nossa equipe está disponível 24 horas por dia para fornecer suporte ininterrupto."
+      },
+      {
+        "title": "Criação automática de visualizações e relatórios",
+        "description": "Nossa plataforma gera automaticamente visualizações e relatórios abrangentes para ajudá-lo a entender melhor seus dados."
+      },
+      {
+        "title": "Detecção de anomalias e identificação de tendências",
+        "description": "Nossas técnicas analíticas avançadas ajudam a identificar anomalias e tendências dentro dos seus dados."
+      },
+      {
+        "title": "Integração com fontes de dados populares",
+        "description": "Nossa plataforma se integra perfeitamente com fontes de dados populares, como CSV, Excel e bancos de dados."
+      },
+      {
+        "title": "Visualização de dados",
+        "description": "Crie visualizações interativas e perspicazes para entender melhor seus dados."
+      },
+      {
+        "title": "Análise de dados com chatbot",
+        "description": "Interaja com nosso chatbot para realizar análises de dados usando consultas em linguagem natural."
+      },
+      {
+        "title": "Planejamento autônomo de recursos",
+        "description": "Nossos agentes inteligentes podem ajudá-lo a otimizar a alocação e o planejamento de recursos."
+      },
+      {
+        "title": "Automatização de processos inteligentes",
+        "description": "Automatize tarefas e processos repetitivos usando nossas capacidades de automação inteligente."
+      },
+      {
+        "title": "Análise financeira preditiva",
+        "description": "Aproveite nossas capacidades de análise preditiva para obter insights sobre seu desempenho financeiro."
+      },
+      {
+        "title": "Previsão e modelagem avançadas",
+        "description": "Nossa plataforma fornece ferramentas avançadas de previsão e modelagem para ajudá-lo a tomar decisões informadas."
+      },
+      {
+        "title": "Baseado na nuvem e escalável",
+        "description": "Nossa plataforma baseada na nuvem é altamente escalável, permitindo que você expanda suas capacidades de análise de dados conforme necessário."
+      },
+      {
+        "title": "Seguro e em conformidade",
+        "description": "Nossa plataforma adere aos mais altos padrões de segurança e regulamentações de conformidade."
+      }
+    ]
+  },
+  "Services2": {
+    "title": "NOSSOS SERVIÇOS",
+    "description": "Soluções abrangentes para desbloquear todo o potencial dos seus dados",
+    "subtitle": "Explore nossa suíte de serviços projetada para ajudá-lo a aproveitar o poder dos seus dados.",
+    "items": [
+      {
+        "title": "Integração perfeita com seu ecossistema de dados",
+        "description": "Nossa plataforma consolida todas as suas fontes de dados, como bancos de dados, planilhas e APIs, em um data warehouse unificado e seguro, facilitando o acesso e a análise dos seus dados a partir de um único local."
+      },
+      {
+        "title": "Consulta em linguagem natural",
+        "description": "Nossa plataforma permite que você faça perguntas sobre seus dados usando linguagem natural, facilitando que usuários não técnicos obtenham insights e tomem decisões baseadas em dados sem a necessidade de consultas complexas ou codificação."
+      },
+      {
+        "title": "Análises avançadas",
+        "description": "Nossa plataforma aproveita técnicas analíticas avançadas, como aprendizado de máquina e inteligência artificial, para descobrir padrões, tendências e insights que seriam difíceis de detectar com métodos tradicionais, permitindo que você tome decisões mais informadas."
+      },
+      {
+        "title": "Visualizações e relatórios",
+        "description": "Nossa plataforma gera automaticamente visualizações interativas e relatórios abrangentes para ajudá-lo a entender melhor seus dados e compartilhar insights com as partes interessadas, garantindo que você possa tomar decisões baseadas em dados com facilidade."
+      }
+    ]
+  },
+  "Pricing": {
+    "title": "PREÇOS",
+    "subtitle": "O plano certo para o seu negócio",
+    "description": "Escolha o plano que melhor se adapta às suas necessidades de análise de dados.",
+    "getstarter": "Começar",
+    "plans": [
+      {
+        "name": "Grátis",
+        "price": "$0.00/mês",
+        "details": [
+          "1 Usuário",
+          "1 Fonte de Dados",
+          "1 Laboratório de Dados",
+          "Grátis por 7 Dias",
+          "Nenhum Cartão de Crédito Necessário",
+          "12000 Tokens",
+          "1M Pontos de Dados"
+        ]
+      },
+      {
+        "name": "Básico",
+        "price": "$17.99/mês",
+        "details": [
+          "1 Usuário",
+          "2 Fontes de Dados",
+          "1 Laboratório de Dados",
+          "Análise de dados sem código em linguagem natural",
+          "Integração com fontes de dados populares",
+          "Visualização de dados",
+          "Análise de dados com chatbot",
+          "290K Tokens",
+          "3M Pontos de Dados"
+        ]
+      },
+      {
+        "name": "Pro",
+        "price": "$19.99/mês",
+        "details": [
+          "1 Usuário",
+          "10 Fontes de Dados",
+          "5 Laboratórios de Dados",
+          "Análise de dados sem código em linguagem natural",
+          "Integração com fontes de dados populares",
+          "Visualização de dados",
+          "Análise de dados com chatbot",
+          "Suporte ininterrupto 24/7",
+          "Criação automática de visualizações e relatórios",
+          "Detecção de anomalias e identificação de tendências",
+          "1M Tokens",
+          "9M Pontos de Dados"
+        ]
+      },
+      {
+        "name": "Enterprise",
+        "price": "Personalizado/mês",
+        "details": [
+          "Usuários",
+          "Fontes de Dados",
+          "Laboratórios de Dados",
+          "Análise de dados sem código em linguagem natural",
+          "Integração com fontes de dados populares",
+          "Visualização de dados",
+          "Análise de dados com chatbot",
+          "Suporte ininterrupto 24/7",
+          "Criação automática de visualizações e relatórios",
+          "Detecção de anomalias e identificação de tendências",
+          "Planejamento autônomo de recursos",
+          "Automatização de processos inteligentes",
+          "Análise financeira preditiva",
+          "Previsão e modelagem avançadas",
+          "Tokens",
+          "Pontos de Dados"
+        ]
+      }
+    ]
+  },
+  "Wholesalers": {
+    "title": "ANÁLISE DE DADOS PARA ATACADISTAS",
+    "description": "Escolha a opção de preços que melhor se adapta às suas necessidades de análise de dados."
+  },
+  "DataPoints": {
+    "title": "Pontos de Dados Processados",
+    "description": "Pague com base na quantidade de pontos de dados processados."
+  },
+  "TokenPricing": {
+    "title": "Preço de Tokens",
+    "description": "Pague pelos tokens usados pelo nosso modelo de linguagem de grande porte (LLM)."
+  },
+  "EstimatedPrices": {
+    "title": "Preços Estimados",
+    "description": "Preço total:"
+  },
+  "Footer": {
+    "privacyPolicy": "Política de Privacidade",
+    "termsAndConditions": "Termos e Condições",
+    "pandasLabs": "🐼 Somos Pandas",
+    "contactlabel": "Contato:",
+    "contact": {
+      "email": "E-mail: servicos@pandaslabs.com"
+    },
+    "copyright": "Pandas Labs. Todos os direitos reservados."
+  }
 }
-  
